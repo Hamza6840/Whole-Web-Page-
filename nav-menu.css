@@ -1,0 +1,294 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    background-color: #f7f7f7f7;
+   align-items: center;
+   position: sticky;
+   top: 0;
+   z-index: 100;
+
+}
+.logo{
+    width: 20%;
+    
+}
+img{
+    width: 80%;
+}
+.nav{
+    width: 60%;
+}
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+}
+
+.nav ul li{
+    color: rgb(22, 22, 22);
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 20px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+   
+}
+.nav ul li a{
+    color: rgb(22, 22, 22);
+    text-decoration: none;
+}
+
+.nav ul li a:hover{
+    color: #FF844B;
+    cursor: pointer;
+   
+}
+
+#btn{
+    font-size: 16px;
+    line-height: 29px;
+    background-color:#FF844B ;
+    border: none;
+    padding: 12px 20px;
+    color: white;
+
+}
+
+ .main-container-1{
+    background-image: url("woman-controlling-smart-home-system-e1694576711655.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    height: 650px;
+   
+    width: 100%;
+    display: flex;
+    align-items: center;
+ 
+  padding-left: 8cw;
+    
+}
+   
+    
+
+.banner-1{
+    width: 60%;
+    padding: 6vw;
+    background-color: rgba(0, 0, 0, 0.409);
+    margin-left: 5vw;
+    border-radius: 25px;
+  border-bottom: 3px solid #FF844B ;
+ 
+    
+
+}
+.banner-2{
+    width: 40%;
+} 
+#sub-child-heading{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 14px;
+    
+}
+#primary-heading{
+    font-size: 42px;
+    line-height: 52px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 14px;
+}
+#para-1{
+    font-size: 16px;
+    line-height: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 14px;
+}
+/* About Us Section Code Of Css */
+
+.About{
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    display: flex;
+    align-items: center;
+}
+.about{
+    width: 50%;
+    margin-right: 2vw;
+    align-items: center;
+}
+#sub1-child-heading
+.about-image{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #FF844B;
+    padding-bottom: 14px;
+}
+.secondry-heading{
+    font-size: 36px;
+    line-height: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(18, 18, 18);
+    padding-bottom: 14px;
+}
+
+.about-image{
+    width: 50%;
+    margin-left: 2vw;
+}
+#about-para{
+    font-size: 16px;
+    line-height: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: rgb(79, 79, 79);
+    padding-bottom: 14px;
+}
+#sub2-child-heading{
+    padding-bottom: 14px;
+
+}
+.about-image img{
+ 
+    border: 4px solid #FF844B;
+    border-radius: 1vw;
+    width: 100%;
+    height: 80vh;
+
+
+}
+/*Services Code*/
+
+.services{
+    padding: 12vh 8vw;
+    background-color: #f7f7f7f7;
+}
+
+#sub3-child-heading{
+    text-align: center;
+    padding-bottom: 10px;
+}
+#services-heading{
+    text-align: center;
+
+}
+.service-inner-main{
+    display: flex;
+    justify-content: space-between;
+    
+ 
+}
+.col-1{
+    padding: 30px;
+    border: 1px solid #FF844B;
+    border-radius: 15px;
+
+
+}
+.col-1 img{
+    width: 100%;
+    border-radius: 15px;
+    border: 3px solid white;
+}
+#col-1{
+    margin-right: 20px;
+    
+}
+#col-2{
+    margin: 0px 10px 10px 0px;
+    
+}
+#col-3{
+    margin-left: 20px;
+    
+}
+.services-heading{
+    text-align: center;
+    padding-top: 15px;
+}
+.service-para{
+    text-align: center;
+    padding-top: 15px;
+}
+/* .btn-zero-padding{
+    padding: 0px;
+    color: #FF844B;
+    border: none;
+    font-size: 16xp;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    position: absolute;
+} */
+
+/*Gallery*/
+.img-gallery{
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+}
+.img-gallery img{
+    width: 320px;
+    height: 300px;
+    margin: 10px 0px;
+
+}
+.gallery{
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    margin-left: 6vw;
+    margin-right: 6vw;
+}
+
+/* Gallery end */
+
+/* Cotnact Us Section Start */
+.form{
+    background-color: beige;
+    margin: auto;
+}
+.contact {
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    background-color: #f7f7f7f7;
+
+}
+/* Footer */
+
+.footer{
+    background-color: black;
+    padding:3vw 6vh;
+}
+#footer-para{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+
+}
